@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Callum Hayes - Product Designer</title>
+    <title>Callum Hayes - Gravity</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,141 +12,218 @@
 <body>
     <header>
         <div class="container">
-            <nav>
-                <a href="index.html" class="logo">
-                    <div class="avatar-placeholder">CH</div>
-                    Callum Hayes
-                </a>
-                <ul class="nav-links">
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <a href="#" class="btn btn-secondary">Use this template</a>
+            <nav class="case-header-nav">
+                <a href="index.html" class="case-nav-left">Home</a>
+                <div class="case-nav-right">
+                    <a href="mailto:hello@callumhayes.com">Email</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Resume</a>
+                    <a href="#more-projects">Projects</a>
+                    <a href="#about">About me</a>
+                </div>
             </nav>
         </div>
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
+        <!-- Hero -->
+        <section class="case-hero">
             <div class="container fade-up">
-                <div class="hero-content">
-                    <h1>Product Designer</h1>
-                    <p class="hero-subtitle">Based in Amsterdam</p>
-                    <p class="hero-description">Currently designing the future of digital products. Focusing on user experience and clean interfaces.</p>
+                <h1>Gravity</h1>
+                <p class="subtitle">Building the best EV charging experience in America.</p>
+                <div class="hero-visual-placeholder"></div>
+            </div>
+        </section>
+
+        <!-- Meta Grid -->
+        <div class="container fade-up">
+            <div class="case-meta-grid">
+                <div class="case-meta-item">
+                    <span class="meta-label">Role</span>
+                    <span class="meta-value">Senior Product Designer</span>
                 </div>
-                <div class="hero-visual">
-                    <!-- Placeholder for the phone visual in the screenshot -->
-                    <div class="device-mockup">
-                        <div class="screen-content"></div>
-                    </div>
+                <div class="case-meta-item">
+                    <span class="meta-label">Team</span>
+                    <span class="meta-value">1 Product Designer<br>3 Engineers</span>
+                </div>
+                <div class="case-meta-item">
+                    <span class="meta-label">My contribution</span>
+                    <span class="meta-value">User research, Experience design, Interaction design, Design system</span>
+                </div>
+                <div class="case-meta-item">
+                    <span class="meta-label">Timeline</span>
+                    <span class="meta-value">5 weeks</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 1: Backed by Google -->
+        <section class="case-section text-left">
+            <div class="container grid-2-col fade-up">
+                <div class="content-text">
+                    <h2>Backed by Google</h2>
+                    <p>Gravity operates America's fastest EV charging network. The company is backed by Google Ventures and is expanding rapidly across the country.</p>
+                </div>
+                <div class="content-visual">
+                    <div class="visual-placeholder">IMG: Charging Station</div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Grid -->
-        <section id="projects" class="projects-section">
-            <div class="container">
-                <div class="projects-grid">
-                    <!-- Project 1: Fitness Tracker -->
-                    <a href="project.html" class="project-card fade-up">
-                        <div class="card-image">
-                            <!-- Placeholder -->
-                            <div class="img-placeholder"></div>
-                        </div>
-                        <div class="card-info">
-                            <div class="card-header">
-                                <h3>Fitness Tracker App Revamp</h3>
-                                <span class="arrow-icon">↗</span>
-                            </div>
-                            <p>Redesigning the user experience for a leading health app.</p>
-                            <div class="tags">
-                                <span>UX/UI</span>
-                                <span>Mobile</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Project 2: E-Commerce -->
-                    <a href="#" class="project-card fade-up" style="transition-delay: 0.1s">
-                        <div class="card-image">
-                            <div class="img-placeholder"></div>
-                        </div>
-                        <div class="card-info">
-                            <div class="card-header">
-                                <h3>E-Commerce Dashboard</h3>
-                                <span class="arrow-icon">↗</span>
-                            </div>
-                            <p>Streamlining inventory management for small businesses.</p>
-                            <div class="tags">
-                                <span>Web App</span>
-                                <span>SaaS</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Project 3: Finance -->
-                    <a href="#" class="project-card fade-up" style="transition-delay: 0.2s">
-                        <div class="card-image">
-                            <div class="img-placeholder"></div>
-                        </div>
-                        <div class="card-info">
-                            <div class="card-header">
-                                <h3>Finance Mobile App</h3>
-                                <span class="arrow-icon">↗</span>
-                            </div>
-                            <p>Making personal finance accessible and intuitive.</p>
-                            <div class="tags">
-                                <span>Fintech</span>
-                                <span>Mobile</span>
-                            </div>
-                        </div>
-                    </a>
+        <!-- Section 2: Audience -->
+        <section class="case-section text-right">
+             <div class="container grid-2-col fade-up">
+                <div class="content-visual">
+                    <div class="cards-grid-2">
+                         <div class="card-placeholder"></div>
+                         <div class="card-placeholder"></div>
+                    </div>
+                </div>
+                <div class="content-text">
+                    <h2>Audience</h2>
+                    <p>Gravity's key user personas are EV owners who need reliable fast charging and Rideshare drivers who depend on efficiency.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Graduation Project (Full Width) -->
-        <section class="graduation-project">
-            <div class="container fade-up">
-                <div class="highlight-card">
-                    <div class="highlight-content">
-                        <h2>Graduation Project</h2>
-                        <p>An in-depth exploration of sustainable urban mobility solutions.</p>
-                        <a href="#" class="btn btn-primary">View Case Study</a>
-                    </div>
-                    <div class="highlight-visual">
-                         <div class="img-placeholder-large"></div>
-                    </div>
+        <!-- Section 3: Research -->
+        <section class="case-section text-left">
+             <div class="container grid-2-col fade-up">
+                <div class="content-text">
+                    <h2>Research</h2>
+                    <p>Speaking with the team and potential users revealed key pain points in the current charging experience: broken chargers, complex payments, and waiting times.</p>
+                </div>
+                <div class="content-visual">
+                    <div class="visual-placeholder">IMG: User Research</div>
                 </div>
             </div>
         </section>
 
-        <!-- Testimonials -->
-        <section class="testimonials">
+        <!-- Section 4: Visual explorations -->
+        <section class="case-section full-width">
             <div class="container fade-up">
-                <h2>Expert feedback</h2>
-                <div class="testimonial-grid">
-                    <div class="testimonial-card">
-                        <p class="quote">"Callum has an exceptional eye for detail and a deep understanding of user needs."</p>
-                        <div class="author">
-                            <div class="avatar-small"></div>
-                            <div>
-                                <h4>Sarah Jenkins</h4>
-                                <span>Senior Product Designer</span>
-                            </div>
-                        </div>
+                <div class="content-text" style="max-width: 600px; margin: 0 auto; text-align: center;">
+                    <h2>Visual explorations</h2>
+                    <p>Exploring different directions for the visual identity and interface.</p>
+                </div>
+                <div class="visual-grid-4" style="margin-top: 48px;">
+                     <div class="visual-placeholder"></div>
+                     <div class="visual-placeholder"></div>
+                     <div class="visual-placeholder"></div>
+                     <div class="visual-placeholder"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Final design -->
+        <section class="case-section full-width">
+            <div class="container fade-up">
+                <div class="content-text" style="max-width: 600px; margin: 0 auto; text-align: center;">
+                    <h2>Final design</h2>
+                    <p>The final design focuses on clarity, speed, and trust.</p>
+                </div>
+                <div class="visual-placeholder" style="height: 600px; margin-top: 48px;">IMG: 3 Large Screens</div>
+            </div>
+        </section>
+
+        <!-- Section 6: More flows -->
+        <section class="case-section text-right">
+             <div class="container grid-2-col fade-up">
+                <div class="content-visual">
+                    <div class="visual-placeholder">IMG: Live Activities</div>
+                </div>
+                <div class="content-text">
+                    <h2>More flows</h2>
+                    <p>Covering edge cases and system states like Live Activities for active charging sessions.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Design System -->
+        <section class="case-section text-left">
+             <div class="container grid-2-col fade-up">
+                <div class="content-text">
+                    <h2>Design System</h2>
+                    <p>I built a comprehensive design system in Figma to ensure consistency and speed up development.</p>
+                </div>
+                <div class="content-visual">
+                    <div class="visual-placeholder">IMG: Figma Variables</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 8: Remedies -->
+        <section class="case-section full-width">
+             <div class="container fade-up">
+                <div class="content-text" style="max-width: 600px; margin: 0 auto;">
+                    <h2>Remedies</h2>
+                    <p>Designing the flow for when things go wrong.</p>
+                </div>
+                <div class="visual-placeholder" style="height: 500px; margin-top: 48px;">IMG: Flowchart</div>
+            </div>
+        </section>
+
+        <!-- Section 9: Signage -->
+        <section class="case-section text-right">
+             <div class="container grid-2-col fade-up">
+                <div class="content-visual">
+                    <div class="visual-placeholder">IMG: Kiosk</div>
+                </div>
+                <div class="content-text">
+                    <h2>Signage</h2>
+                    <p>Designing the physical and digital signage for the charging stations.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 10: Leveraging AI -->
+        <section class="case-section text-left">
+             <div class="container grid-2-col fade-up">
+                <div class="content-text">
+                    <h2>Leveraging AI</h2>
+                    <p>Using AI to optimize charging schedules and predict availability.</p>
+                </div>
+                <div class="content-visual">
+                    <div class="visual-placeholder">IMG: Code/AI</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 11: Learnings -->
+        <section class="case-section full-width">
+             <div class="container fade-up">
+                <div class="content-text" style="max-width: 600px; margin: 0 auto;">
+                    <h2>Learnings</h2>
+                    <p>Key takeaways from the project.</p>
+                </div>
+                <div class="cards-grid-2" style="margin-top: 48px;">
+                     <div class="card-placeholder" style="height: 200px;"></div>
+                     <div class="card-placeholder" style="height: 200px;"></div>
+                     <div class="card-placeholder" style="height: 200px;"></div>
+                     <div class="card-placeholder" style="height: 200px;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 12: More projects -->
+        <section id="more-projects" class="case-section full-width">
+            <div class="container fade-up">
+                <h2 style="text-align: left;">More projects</h2>
+                <div class="more-projects-grid">
+                    <div class="project-thumb-card">
+                        <div class="project-thumb"></div>
+                        <h4>Truv Bridge</h4>
+                        <p>Fintech</p>
                     </div>
-                     <div class="testimonial-card">
-                        <p class="quote">"The best junior designer I've had the pleasure of mentoring."</p>
-                        <div class="author">
-                            <div class="avatar-small"></div>
-                            <div>
-                                <h4>Mike Ross</h4>
-                                <span>Art Director</span>
-                            </div>
-                        </div>
+                    <div class="project-thumb-card">
+                        <div class="project-thumb"></div>
+                        <h4>Truv Dashboard</h4>
+                        <p>SaaS</p>
+                    </div>
+                    <div class="project-thumb-card">
+                        <div class="project-thumb"></div>
+                        <h4>SberKids</h4>
+                        <p>Mobile App</p>
                     </div>
                 </div>
             </div>
